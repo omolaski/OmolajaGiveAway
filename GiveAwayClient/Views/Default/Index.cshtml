@@ -1,0 +1,469 @@
+﻿@model GiveAwayClient.Models.Rootobject
+
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+
+
+
+    <link href="~/vendors/css/normalize.css" rel="stylesheet" />
+    <link href="~/vendors/css/grid.css" rel="stylesheet" />
+    <link href="~/vendors/css/ionicons.min.css" rel="stylesheet" />
+    <link href="~/vendors/css/animate.css" rel="stylesheet" />
+    <link href="~/resources/css/style.css" rel="stylesheet" />
+    <link href="~/resources/css/queries.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Omolaja Giveaway</title>
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="~/resources/img/logo-white.png" alt="logo" class="logo">
+                <img src="~/resources/img/logo-white - Copy.png" alt="logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="LoginUser">Login</a></li>
+                    <li><a href="#forms">Sign up</a></li>
+                    <li><a href="#howitworks">How it works</a></li>
+                    <li><a href="#">Sponsor </a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><img src="~/resources/img/mobileIcon.png" alt="Korean bibimbap with egg and vegetables"></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Omolaja Giveaway!<br>Oya! Signup to win<br>Everyday na our own Christmas</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#">Sign up </a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show more</a>
+        </div>
+    </header>
+    <section class="section-features js--section-features">
+        <div class="row">
+            <h2>Daily giveway &mdash; we pay it forward</h2>
+            <p class="long-copy">Enter for a chance to win a daily gift. Our daily giveaway range from as little as recharge card up to a million naira! You must enter your information daily to be considered for daily draw </p>
+        </div>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>Wanna be our giveaway sponsor?</h3>
+                <p>
+                    Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>Recharge Card</h3>
+                <p>
+                    You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>gadgets</h3>
+                <p>
+                    All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+                </p>
+            </div><div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>and anymore</h3>
+                <p>
+                    We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-meals">
+        <h2>sponsors banner </h2>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/3.jpg" alt="Chicken breast steak with vegetables ">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/4.jpg" alt="Autumn pumpkin soup">
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/5.jpeg" alt="Paleo beef steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/6.jpeg" alt="Healthy baguette with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/7.jpeg" alt="Burger with cheddar and bacon">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="~/resources/img/8.jpeg" alt="Granola with cherries and strawberries">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-steps" id="howitworks">
+        <div class="row">
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box js--wp-2">
+                <img src="~/resources/img/app-iPhone.png" alt=" Test" class="app-screen">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>
+                        If you are first time player, fill in the information below and ensure the information is accurate. If you have previously
+                        signed up, just login.
+                    </p>
+
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>After you have logged in, click on the button that says "Daily Draw".</p>
+                </div>
+                <div class="works-step">
+                    <div>3</div>
+                    <p>We choose the winner 10pm daily and contact the winner directly. Please make sure your information is correct.</p>
+                </div>
+
+                <a href="#" class="btn-app"><img src="~/resources/img/download-app.svg" alt="App Store Button"></a>
+                <a href="#" class="btn-app"><img src="~/resources/img/download-app-android.png" alt="Play Store Button"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                </blockquote>
+                <cite><img src="~/resources/img/customer-1.jpg" alt="Customer Alberto Duncan">Alberto Duncan</cite>
+
+            </div> <div class="col span-1-of-3">
+                <blockquote>
+                    Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                </blockquote>
+                <cite><img src="~/resources/img/customer-2.jpg" alt="Customer Alberto Duncan">Joana Silva</cite>
+
+            </div> <div class="col span-1-of-3">
+                <blockquote>
+                    I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                </blockquote>
+                <cite><img src="~/resources/img/customer-3.jpg" alt="Customer Alberto Duncan">Milton Chapman</cite>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="section-form js--section-form" id="forms">
+        <div class="row">
+            <h2>Enter Information Below</h2>
+        </div>
+        <div class="row">
+
+            <form method="post" action="/Default/Create" class="contact-form">
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="lastName">Username</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="username" id="username" placeholder="Username" required>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="lastName">Password</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="lastName">Confirm Password</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="password" name="confirmPassword" id="password" placeholder="Confirm Password">
+                    </div>
+
+
+                </div>
+
+
+
+             
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="firstName">First Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="firstName" id="firstName" placeholder="First name" required>
+                    </div>
+
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="middleName">Middle Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="middleName" id="middleName" placeholder="Middle name">
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="lastName">Last Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="lastName" id="lastName" placeholder="Last name" >
+                    </div>
+
+
+                </div>
+                
+
+                
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="DOB">Date of birth</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="date" name="DOB" id="DOB" placeholder="Date of birth" >
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Email" >
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="phone" id="phone" placeholder="Phone" >
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Gender</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name=gender id="gender">
+                            <option value="male">Male</option>
+                            <option value="female" selected>Female</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Occupation</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name=occupation id="occupation">
+                            <option value="Student" selected>Student</option>
+                            <option value="Employed">Employed</option>
+                            <option value="Self-Employed">Self-Employed</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="address">Address</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="address" id="address" placeholder="Address" >
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="city">City</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="city" id="city" placeholder="City" >
+
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="state">State</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="state" id="state" placeholder="State" >
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Country</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name=country id="country">
+                            <option value="Nigeria">Nigeria</option>
+
+                        </select>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> </label>
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+
+                        
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a> </li>
+                    <li><a href="#">Blogs</a> </li>
+                    <li><a href="#">Press</a> </li>
+                    <li><a href="#">iOS App</a> </li>
+                    <li><a href="#">Android App</a> </li>
+                </ul>
+
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="logo-facebook"></i></a> </li>
+                    <li><a href="#"><i class="ion-social-facebook"></i></a> </li>
+                    <li><a href="#"><i class="ion-social-facebook"></i></a> </li>
+                    <li><a href="#"><i class="ion-social-facebook"></i></a> </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2018 by Power Supreme Solutions. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="~/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="~/resources/js/script.js"></script>
+</body>
+
+
+</html>
+
+<!--
+Section 1: Features
+Title: Get food fast &mdash; not fast food.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

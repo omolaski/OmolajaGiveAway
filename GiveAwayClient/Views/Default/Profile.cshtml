@@ -1,0 +1,100 @@
+﻿@model GiveAwayClient.Models.Rootobject
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <link href="~/vendors/css/normalize.css" rel="stylesheet" />
+    <link href="~/vendors/css/grid.css" rel="stylesheet" />
+    <link href="~/vendors/css/ionicons.min.css" rel="stylesheet" />
+    <link href="~/vendors/css/animate.css" rel="stylesheet" />
+    <link href="~/resources/css/style.css" rel="stylesheet" />
+    <link href="~/resources/css/queries.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Omolaja Giveaway</title>
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body>
+
+    <section class="section-features js--section-features">
+
+        <nav>
+            <div class="row">
+                <img src="~/resources/img/logo-white.png" alt="logo" class="logo">
+                <img src="~/resources/img/logo-white%20-%20Copy.png" alt="logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+
+                    <li><a href="/Default/Logout">Logout </a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><img src="resources/img/mobileIcon.png" alt="Korean bibimbap with egg and vegetables"></a>
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <h2>Account</h2>
+            <p class="long-copy">Enter for a chance to win a daily gift. Our daily giveaway range from as little as recharge card up to a million naira! You must enter your information daily to be considered for daily draw </p>
+        </div>
+        <div class="row js--wp-">
+            <div class="col span-1-of-3 box">
+
+                <h3 id="user-information">User Information</h3>
+                <p id="user-details">
+                 
+                    User: &nbsp;&nbsp;&nbsp; @Model.Username  <br />
+                    Name: &nbsp;&nbsp;&nbsp;@Model.FirstName  @Model.LastName <br />
+                    <a href="#">Update Personal Information</a> <br />
+                    <a href="#">Update Bank Information</a>
+
+                </p>
+            </div>
+            <div class="col span-1-of-3 box">
+
+                <h3 id="ads"></h3>
+                <p>
+
+                </p>
+            </div>
+            <div class="col span-1-of-3 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3 id="giveaway">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giveaway</h3>
+                <p>
+                    <br />
+                 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="btn btn-full js--scroll-to-plans" href="#">Daily Play </a> <br /><br />
+
+                    Last played: @DateTime.Now
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="~/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="~/resources/js/script.js"></script>
+</body>
+
+
+</html>
